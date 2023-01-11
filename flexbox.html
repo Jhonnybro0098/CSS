@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        ul{
+            padding: 34px;
+        }
+        li{
+            list-style: none;
+            display: inline;
+            padding: 0 43px;
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+        .left{
+            height: 80vh;
+            width: 40vw;
+            background-color: blue;
+        }
+        .right{
+            height: 80vh;
+            width: 40vw;
+            background-color: red;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam recusandae perspiciatis, repellendus iure quod aperiam nulla eligendi non officiis. Sequi repellendus aut ipsam natus id soluta! Totam magnam, necessitatibus iste maxime non hic labore.</div>
+        <div class="right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam modi quas voluptatem, necessitatibus a quisquam explicabo, quod aut rerum natus, inventore provident eligendi obcaecati fugit? Unde ea in quas animi neque obcaecati possimus?
+        </div>
+    </div>
+</body>
+</html>

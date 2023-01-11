@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(183, 236, 9);
+}
+.red{
+    color: white;
+    background-color: red;
+}
+#head{
+    color:red;
+    background-color: black;
+}
+.lo{
+    color: aqua;
+    background-color: brown;
+}
